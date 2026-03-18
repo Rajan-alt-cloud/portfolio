@@ -167,21 +167,6 @@ filterButtons.forEach((button) => {
   });
 });
 
-const contactForm = document.getElementById("contactForm");
-const formNote = document.getElementById("formNote");
-
-if (contactForm && formNote) {
-  contactForm.addEventListener("submit", (event) => {
-    event.preventDefault();
-
-    const formData = new FormData(contactForm);
-    const name = formData.get("name");
-
-    formNote.textContent = `Thanks ${name}, your message has been captured. I will get back to you soon.`;
-    contactForm.reset();
-  });
-}
-
 const year = document.getElementById("year");
 if (year) {
   year.textContent = new Date().getFullYear();
