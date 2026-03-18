@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rajan Prajapati portfolio: aspiring data analyst building modern web and analytics projects." />
+    <meta
+      name="keywords"
+      content="Rajan Prajapati, Data Analyst, MERN Stack, Data Science, Portfolio"
+    />
+    <meta name="author" content="Rajan Prajapati" />
+    <meta property="og:title" content="Rajan Prajapati | Portfolio" />
+    <meta
+      property="og:description"
+      content="Aspiring Data Analyst with skills in MERN stack, analytics, and data science."
+    />
+    <meta property="og:type" content="website" />
+    <title>Rajan Prajapati | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Manrope:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <div class="noise"></div>
+
+    <header class="site-header" id="header">
+      <nav class="navbar container">
+        <a href="#home" class="logo">Rajan<span>.</span></a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+          <i class="bx bx-menu"></i>
+        </button>
+
+        <div class="nav-menu" id="navMenu">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#contact" class="nav-link">Contact</a>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+            <i class="bx bx-moon"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="container reveal">
+          <p class="section-kicker">HELLO, I'M</p>
+          <h1 class="hero-name">Rajan Prajapati</h1>
+          <h2 class="hero-role">Aspiring Data Analyst</h2>
+          <p class="hero-desc">
+            I specialize in building responsive full-stack web applications and
+            learning data analytics and data science to solve real-world problems.
+          </p>
+          <p class="typing-wrap">
+            Working with <span id="typedText" class="typed-text"></span>
+            <span class="cursor">|</span>
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Get In Touch</a>
+            <a href="#projects" class="btn btn-outline">View Projects</a>
+            <a href="#" class="btn btn-outline">
+              <i class="bx bx-download"></i> Download Resume
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <a href="https://github.com/Rajan-alt-cloud" target="_blank" rel="noopener noreferrer">
+              <i class="bx bxl-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/rajan-prajapati-a3261a2b7" target="_blank" rel="noopener noreferrer">
+              <i class="bx bxl-linkedin-square"></i> LinkedIn
+            </a>
+            <a href="mailto:pv44863@gmail.com">
+              <i class="bx bx-envelope"></i> Email
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container reveal">
+          <p class="section-kicker">ABOUT ME</p>
+          <h2 class="section-title">Get To Know More About My Background And Expertise</h2>
+          <p class="section-text">
+            I am a passionate developer and aspiring data analyst with a strong
+            foundation in building modern, scalable web applications. My journey
+            spans full-stack development with MERN and practical analytics using
+            Python and BI tools.
+          </p>
+          <p class="section-text">
+            I enjoy tackling complex challenges, building practical solutions,
+            and continuously learning modern tools across development, analytics,
+            and data science.
+          </p>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <i class="bx bx-code-block"></i>
+              <h3>Full-Stack Development</h3>
+              <p>Building robust web applications with modern technologies.</p>
+            </article>
+            <article class="feature-card">
+              <i class="bx bx-line-chart"></i>
+              <h3>Data Analytics</h3>
+              <p>Turning raw data into meaningful insights through analysis.</p>
+            </article>
+            <article class="feature-card">
+              <i class="bx bx-group"></i>
+              <h3>Collaboration</h3>
+              <p>Working effectively in teams and collaborative workflows.</p>
+            </article>
+            <article class="feature-card">
+              <i class="bx bx-bulb"></i>
+              <h3>Innovation</h3>
+              <p>Solving real-world problems through practical ideas and execution.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container reveal">
+          <p class="section-kicker">SKILLS & TECHNOLOGIES</p>
+          <h2 class="section-title">Tools And Technologies I Work With</h2>
+
+          <div class="skills-groups">
+            <article class="skill-group skill-card" data-level="92">
+              <h3><i class="bx bx-laptop"></i> Web Development</h3>
+              <p>HTML, CSS, JavaScript, Bootstrap, Tailwind CSS</p>
+              <div class="progress-track"><span class="progress-fill"></span></div>
+            </article>
+            <article class="skill-group skill-card" data-level="85">
+              <h3><i class="bx bx-layer"></i> MERN Stack</h3>
+              <p>MongoDB, Express, React, Node.js</p>
+              <div class="progress-track"><span class="progress-fill"></span></div>
+            </article>
+            <article class="skill-group skill-card" data-level="88">
+              <h3><i class="bx bx-bar-chart-alt-2"></i> Data & Analysis</h3>
+              <p>Excel, Power BI, SQL, Python</p>
+              <div class="progress-track"><span class="progress-fill"></span></div>
+            </article>
+            <article class="skill-group skill-card" data-level="84">
+              <h3><i class="bx bx-data"></i> Data Science</h3>
+              <p>NumPy, Pandas, Matplotlib, Seaborn</p>
+              <div class="progress-track"><span class="progress-fill"></span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container reveal">
+          <p class="section-kicker">FEATURED PROJECTS</p>
+          <div class="section-head">
+            <h2 class="section-title">A Showcase Of My Recent Work And Achievements</h2>
+            <div class="filter-group">
+              <button class="filter-btn active" data-filter="all">All</button>
+              <button class="filter-btn" data-filter="mern">MERN</button>
+              <button class="filter-btn" data-filter="python">Python</button>
+            </div>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card" data-category="mern">
+              <h3>Taskhub (MERN Stack)</h3>
+              <p>
+                A full-stack application where users can browse, search, and manage
+                books using REST APIs and MongoDB.
+              </p>
+              <div class="project-tags">
+                <span>MERN</span><span>REST API</span><span>MongoDB</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/Rajan-alt-cloud" target="_blank" rel="noopener noreferrer" class="btn btn-small btn-outline">Code</a>
+                <a href="#" class="btn btn-small btn-primary">Live Demo</a>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="python">
+              <h3>Secure Data Storage System</h3>
+              <p>
+                A Python-based encryption-decryption system where data is encrypted
+                before storing in the database and can only be decrypted with a
+                password.
+              </p>
+              <div class="project-tags">
+                <span>Python</span><span>Encryption</span><span>Security</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/Rajan-alt-cloud" target="_blank" rel="noopener noreferrer" class="btn btn-small btn-outline">Code</a>
+                <a href="#" class="btn btn-small btn-primary">Live Demo</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container reveal">
+          <p class="section-kicker">EXPERIENCE & LEARNING</p>
+          <h2 class="section-title">My Journey In MERN, Data Analytics, And Data Science</h2>
+          <div class="timeline">
+            <article class="timeline-item">
+              <h3>Data Analytics Learning</h3>
+              <p>
+                Learning data cleaning, analysis, and dashboarding with Excel,
+                SQL, Power BI, and Python for decision-making.
+              </p>
+            </article>
+            <article class="timeline-item">
+              <h3>Data Science Concepts</h3>
+              <p>
+                Building practical understanding of preprocessing, EDA, and
+                visualization using NumPy, Pandas, Matplotlib, and Seaborn.
+              </p>
+            </article>
+            <article class="timeline-item">
+              <h3>MERN Real-World Projects</h3>
+              <p>
+                Developing full-stack projects with authentication, API
+                integrations, and production-focused application structure.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container reveal">
+          <p class="section-kicker">GET IN TOUCH</p>
+          <h2 class="section-title">Let's Discuss Opportunities And Collaborate On Projects</h2>
+
+          <div class="contact-grid">
+            <div class="contact-info">
+              <article class="contact-item">
+                <i class="bx bx-phone"></i>
+                <div>
+                  <h3>Phone</h3>
+                  <a href="tel:+918383097521">8383097521</a>
+                </div>
+              </article>
+              <article class="contact-item">
+                <i class="bx bx-envelope"></i>
+                <div>
+                  <h3>Email</h3>
+                  <a href="mailto:pv44863@gmail.com">pv44863@gmail.com</a>
+                </div>
+              </article>
+              <article class="contact-item">
+                <i class="bx bxl-github"></i>
+                <div>
+                  <h3>GitHub</h3>
+                  <a href="https://github.com/Rajan-alt-cloud" target="_blank" rel="noopener noreferrer">github.com/Rajan-alt-cloud</a>
+                </div>
+              </article>
+              <article class="contact-item">
+                <i class="bx bxl-linkedin-square"></i>
+                <div>
+                  <h3>LinkedIn</h3>
+                  <a href="https://www.linkedin.com/in/rajan-prajapati-a3261a2b7" target="_blank" rel="noopener noreferrer">linkedin.com/in/rajan-prajapati-a3261a2b7</a>
+                </div>
+              </article>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+              <label>
+                Name
+                <input type="text" name="name" placeholder="Your name" required />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" placeholder="you@example.com" required />
+              </label>
+              <label>
+                Message
+                <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+              </label>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+              <p class="form-note" id="formNote"></p>
+            </form>
+          </div>
+
+          <div class="stats-grid">
+            <article class="stat-card">
+              <h3>10+</h3>
+              <p>Projects Completed</p>
+            </article>
+            <article class="stat-card">
+              <h3>2+</h3>
+              <p>Years Learning</p>
+            </article>
+            <article class="stat-card">
+              <h3>100%</h3>
+              <p>Growth Mindset</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Rajan Prajapati. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="https://github.com/Rajan-alt-cloud" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/rajan-prajapati-a3261a2b7" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="mailto:pv44863@gmail.com">Email</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
